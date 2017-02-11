@@ -19,6 +19,7 @@ docker run -i -t ronghaiyang/hadoop2.7.1
 ```
 ./my-start-hadoop.sh
 ```
+Note that we create a sudo-user `hduser` to run Hadoop. The password for `hduser` is `hduser`.
 
 Now you have a ready-to-run cluster.
 
